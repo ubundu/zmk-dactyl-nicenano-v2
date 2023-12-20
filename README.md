@@ -1,2 +1,2 @@
-# dactyl-cc-zmk
-My ZMK config for [my dactyl-cc keyboard](https://imgur.com/gallery/yXrFuQ6).
+# dactyl-manuform-zmk
+Started with config from [dactyl-cc keyboard](https://imgur.com/gallery/yXrFuQ6).
