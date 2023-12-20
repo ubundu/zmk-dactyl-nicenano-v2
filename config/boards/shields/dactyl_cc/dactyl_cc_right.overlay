@@ -8,11 +8,11 @@
 // TODO: Put the correct column GPIOs here.
 &kscan0 {
     col-gpios
-        = <&gpio0 4 GPIO_ACTIVE_HIGH> // col5 in the schematic      -- D4
-        , <&gpio0 5 GPIO_ACTIVE_HIGH> // col4 in the schematic      -- D5
-        , <&gpio1 32  GPIO_ACTIVE_HIGH> // col3 in the schematic    -- ??
-        , <&gpio0 7 GPIO_ACTIVE_HIGH> // col2 in the schematic      -- D7
-        , <&gpio1 36  GPIO_ACTIVE_HIGH> // col1 in the schematic    -- ??
-        , <&gpio1 38  GPIO_ACTIVE_HIGH> // col0 in the schematic    -- ??
+        = <&gpio0 22  GPIO_ACTIVE_HIGH> // col5 in the schematic    
+        , <&gpio0 24  GPIO_ACTIVE_HIGH> // col4 in the schematic    
+        , <&gpio0 32  GPIO_ACTIVE_HIGH> // col3 in the schematic   
+        , <&gpio0 11  GPIO_ACTIVE_HIGH> // col2 in the schematic    
+        , <&gpio0 36  GPIO_ACTIVE_HIGH> // col1 in the schematic   
+        , <&gpio0 38  GPIO_ACTIVE_HIGH> // col0 in the schematic   
         ;
 };

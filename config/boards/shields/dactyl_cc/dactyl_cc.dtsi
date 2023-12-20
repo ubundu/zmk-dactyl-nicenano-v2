@@ -35,12 +35,12 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)     RC(3,11) RC(3,10) RC(3,9) RC
         // TODO: Put correct rows GPIOs here.
         diode-direction = "col2row";
         row-gpios
-            = <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from the schematic file  -- ??
-            , <&gpio0 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 from the schematic file  -- ??
-            , <&gpio1 40 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 from the schematic file  -- ??
-            , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 from the schematic file  -- ??
-            , <&gpio1 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from the schematic file  -- D16
-            , <&gpio0 10  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5 from the schematic file -- D10
+            = <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 0 from the schematic file
+            , <&gpio0 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 1 from the schematic file
+            , <&gpio0 41 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 2 from the schematic file
+            , <&gpio0 43 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 3 from the schematic file
+            , <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 4 from the schematic file
+            , <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row 5 from the schematic file
             ;
     };
 };
