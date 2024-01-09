@@ -1,2 +1,3 @@
 # dactyl-manuform-zmk
 Started with config from [dactyl-cc keyboard](https://imgur.com/gallery/yXrFuQ6).
+Modified the pins of the MCU to reflect my "nice!nano v3.2". Check out [joric](https://github.com/joric/nrfmicro/wiki/Alternatives) on the different controllers available. Also to note: the silkscreen on the controler refferences pins > 32; for these pins you substract 32 and change &gpio0 to &gpio1. It took me a while to figure this out, this [forum post](https://forum.arduino.cc/t/how-to-identify-assigned-pins-in-arduino-ide-for-a-custom-nrf52840-module/623550/5) helped me understand this.
