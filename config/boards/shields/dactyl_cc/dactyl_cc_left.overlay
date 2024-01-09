@@ -4,10 +4,10 @@
 // TODO: Put the correct column GPIOs here.
 &kscan0 {
     col-gpios
-        = <&gpio0 38  GPIO_ACTIVE_HIGH>
-        , <&gpio0 36  GPIO_ACTIVE_HIGH>
+        = <&gpio1 6   GPIO_ACTIVE_HIGH> // 38 on the silkscreen
+        , <&gpio1 4   GPIO_ACTIVE_HIGH> // 36 on the silkscreen
         , <&gpio0 11  GPIO_ACTIVE_HIGH> // GOOD
-        , <&gpio0 32  GPIO_ACTIVE_HIGH>
+        , <&gpio1 0   GPIO_ACTIVE_HIGH> // 32 silkscreen 
         , <&gpio0 24  GPIO_ACTIVE_HIGH> // GOOD
         , <&gpio0 22  GPIO_ACTIVE_HIGH> // GOOD
         ;

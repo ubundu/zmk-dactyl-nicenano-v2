@@ -10,9 +10,9 @@
     col-gpios
         = <&gpio0 22  GPIO_ACTIVE_HIGH> // col5 in the schematic  // GOOD
         , <&gpio0 24  GPIO_ACTIVE_HIGH> // col4 in the schematic  // GOOD  
-        , <&gpio0 32  GPIO_ACTIVE_HIGH> // col3 in the schematic   
+        , <&gpio1 0   GPIO_ACTIVE_HIGH> // col3 in the schematic  // 32 on the silkscreen
         , <&gpio0 11  GPIO_ACTIVE_HIGH> // col2 in the schematic  // GOOD
-        , <&gpio0 36  GPIO_ACTIVE_HIGH> // col1 in the schematic   
-        , <&gpio0 38  GPIO_ACTIVE_HIGH> // col0 in the schematic   
+        , <&gpio1 4   GPIO_ACTIVE_HIGH> // col1 in the schematic  // 36 on the silkscreen
+        , <&gpio1 6   GPIO_ACTIVE_HIGH> // col0 in the schematic  // 38 on the silkscreen
         ;
 };
