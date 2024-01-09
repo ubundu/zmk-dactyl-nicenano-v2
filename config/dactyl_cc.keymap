@@ -93,7 +93,7 @@
 &kp LSHIFT      &kp A   &kp S             &kp D       &kp F      &kp G        &kp H       &kp J      &kp K      &kp L        &kp SEMI  &kp SINGLE_QUOTE
 &kp LCTRL       &kp Z   &kp X             &kp C       &kp V      &kp B        &kp N       &kp M      &kp COMMA  &kp DOT      &kp FSLH  &kp NON_US_BSLH
                          &kp LBKT         &kp RBKT    &mo SUS    &kp LALT     &kp RALT    &mo JOS    &kp GRAVE   &kp EQUAL
-                         &kp RET          &kp SPACE   &kp LGUI   &kp BSPC     &kp SPACE   &kp RET    &kp DEL    &kp LGUI
+                         &kp LGUI         &kp BSPC    &kp RET    &kp SPACE    &kp SPACE   &kp RET    &kp DEL    &kp LGUI
             >;
         };
         
@@ -104,7 +104,7 @@
 &trans       &kp LSHIFT      &kp A     &kp S       &kp D       &kp F      &kp H        &kp J       &kp K      &kp L        &kp SEMI   &kp SINGLE_QUOTE
 &trans       &kp LCTRL       &kp Z     &kp X       &kp C       &kp B      &kp N        &kp M       &kp COMMA  &kp DOT      &kp FSLH  &kp NON_US_BSLH
                              &kp LBKT  &kp RBKT    &mo SUS     &kp LALT    &kp RALT    &mo JOS    &kp GRAVE  &kp EQUAL
-                             &kp RET   &kp SPACE   &kp G       &kp BSPC    &kp SPACE   &kp RET    &kp DEL    &kp LGUI
+                             &kp LGUI  &kp BSPC    &kp G       &kp SPACE   &kp SPACE   &kp RET    &kp DEL    &kp LGUI
             >;
         };
 
@@ -126,7 +126,7 @@
 &trans      &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp LPAR           &kp RPAR   &kp C_PREV    &kp C_PLAY &kp C_NEXT     &trans    &kp C_VOL_DN
 &trans      &trans           &trans           &trans           &trans           &trans             &trans     &trans        &trans     &trans         &trans    &kp C_MUTE
                              &trans           &trans           &trans           &trans             &kp EQUAL  &trans        &trans     &trans
-                             &trans           &trans           &tog GAME        &trans             &trans     &trans        &trans     &trans
+                             &tog DEFAULT     &trans           &tog GAME        &trans             &trans     &trans        &trans     &trans
             >;
         };
     };
