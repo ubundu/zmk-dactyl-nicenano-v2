@@ -99,7 +99,7 @@
         
         GAME {
             bindings = <
-&kp ESC      &kp N1          &kp N2    &kp N3      &kp N4      &kp N5     &kp N6       &kp N7      &kp N8     &kp N9       &kp N0     &tog DEFAULT
+&kp ESC      &kp N1          &kp N2    &kp N3      &kp N4      &kp N5     &kp N6       &kp N7      &kp N8     &kp N9       &kp N0     &tog GAME
 &trans       &kp TAB         &kp Q     &kp W       &kp E       &kp R      &kp T        &kp Y       &kp I      &kp O        &kp P      &kp MINUS
 &trans       &kp LSHIFT      &kp A     &kp S       &kp D       &kp F      &kp H        &kp J       &kp K      &kp L        &kp SEMI   &kp SINGLE_QUOTE
 &trans       &kp LCTRL       &kp Z     &kp X       &kp C       &kp B      &kp N        &kp M       &kp COMMA  &kp DOT      &kp FSLH  &kp NON_US_BSLH
@@ -126,7 +126,7 @@
 &trans      &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &kp LPAR           &kp RPAR   &kp C_PREV    &kp C_PLAY &kp C_NEXT     &trans    &kp C_VOL_DN
 &trans      &trans           &trans           &trans           &trans           &trans             &trans     &trans        &trans     &trans         &trans    &kp C_MUTE
                              &trans           &trans           &trans           &trans             &kp EQUAL  &trans        &trans     &trans
-                             &trans           &trans           &tog DEFAULT     &trans             &trans     &trans        &trans     &trans
+                             &trans           &trans           &tog GAME        &trans             &trans     &trans        &trans     &trans
             >;
         };
     };
